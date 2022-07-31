@@ -1,0 +1,55 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+app-misc/font-manager:gnome-search-provider - Install GNOME shell search provider
+app-misc/font-manager:google-fonts - Google Fonts integration
+app-misc/font-manager:manager - Build font-manager
+app-misc/font-manager:nautilus - Build Nautilus extension
+app-misc/font-manager:nemo - Build Nemo extension
+app-misc/font-manager:reproducible - Make the build reproducible
+app-misc/font-manager:thunar - Build Thunar extension
+app-misc/font-manager:viewer - Build font-viewer
+games-fps/ecwolf:non-free - Build with MAME OPL implimentation
+games-fps/rbdoom3-bfg:binkdec - Use included libbinkdec to render Bink videos
+games-fps/rbdoom3-bfg:classic - Build with The Ultimate DOOM and DOOM 2
+games-fps/rbdoom3-bfg:sdl2 - Use SDL2 instead of SDL1.2
+games-fps/rbdoom3-bfg:standalone - Skip DOOM-3-BFG base/ folder and use assets/ instead
+games-fps/rbdoom3-bfg:system-libglew - Use the system libglew instead of the bundled one
+games-fps/rbdoom3-bfg:system-libjpeg - Use the system libjpeg instead of the bundled one
+games-fps/rbdoom3-bfg:system-libpng - Use the system libpng instead of the bundled one
+games-fps/rbdoom3-bfg:system-rapidjson - Use the system rapidjson instead of the bundled one
+games-fps/rbdoom3-bfg:system-zlib - Use the system zlib instead of the bundled one
+games-fps/rbdoom3-bfg:vulkan - Use Vulkan instead of OpenGL (lacks most advanced features)
+games-fps/vkQuake:mpg123 - Enable mpg123 audio codec for mp3 files
+games-fps/vkQuake:tremor - Enable tremor audio codec for vorbis files
+games-fps/vkQuake:umx - Add buildin umx support for playing Soundtracker-style music files
+games-fps/vkQuake:wav - Enable wav audio codec for wavetable files
+games-fps/vkQuake:xmp - Add libxmp support for playing of Soundtracker-style music files
+media-fonts/powerline-fonts:3270 - Install Powerline-patched 3270 fonts
+media-fonts/powerline-fonts:anonymouspro - Install Powerline-patched Anonymous Pro fonts
+media-fonts/powerline-fonts:arimo - Install Powerline-patched Arimo fonts
+media-fonts/powerline-fonts:cousine - Install Powerline-patched Cousine fonts
+media-fonts/powerline-fonts:dejavusansmono - Install Powerline-patched DejaVu Sans Mono fonts
+media-fonts/powerline-fonts:droidsansmono - Install Powerline-patched Droid Sans Mono fonts
+media-fonts/powerline-fonts:droidsansmonodotted - Install Powerline-patched Droid Sans Mono Dotted fonts
+media-fonts/powerline-fonts:droidsansmonoslashed - Install Powerline-patched Droid Sans Mono Slashed fonts
+media-fonts/powerline-fonts:firamono - Install Powerline-patched Fira Mono fonts
+media-fonts/powerline-fonts:gomono - Install Powerline-patched Go Mono fonts
+media-fonts/powerline-fonts:hack - Install Powerline-patched Hack fonts
+media-fonts/powerline-fonts:inconsolata - Install Powerline-patched Inconsolata fonts
+media-fonts/powerline-fonts:inconsolata-g - Install Powerline-patched Inconsolata-g fonts
+media-fonts/powerline-fonts:inconsolatadz - Install Powerline-patched Inconsolata-dz fonts
+media-fonts/powerline-fonts:liberationmono - Install Powerline-patched Liberation Mono fonts
+media-fonts/powerline-fonts:meslodotted - Install Powerline-patched Meslo Dotted fonts
+media-fonts/powerline-fonts:mesloslashed - Install Powerline-patched Meslo Slashed fonts
+media-fonts/powerline-fonts:monofur - Install Powerline-patched Monofur fonts
+media-fonts/powerline-fonts:notomono - Install Powerline-patched Noto Mono fonts
+media-fonts/powerline-fonts:novamono - Install Powerline-patched Nova Mono fonts
+media-fonts/powerline-fonts:robotomono - Install Powerline-patched Roboto Mono fonts
+media-fonts/powerline-fonts:sourcecodepro - Install Powerline-patched Source Code Pro fonts
+media-fonts/powerline-fonts:spacemono - Install Powerline-patched Space Mono fonts
+media-fonts/powerline-fonts:symbolneu - Install Powerline-patched Symbol Neu fonts
+media-fonts/powerline-fonts:terminus_pcf - Install Powerline-patched Terminus fonts in PCF format
+media-fonts/powerline-fonts:tinos - Install Powerline-patched Tinos fonts
+media-fonts/powerline-fonts:ubuntumono - Install Powerline-patched Ubuntu Mono fonts

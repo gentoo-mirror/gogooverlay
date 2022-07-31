@@ -1,0 +1,13 @@
+BDEPEND=!sdl? ( >=dev-util/premake-5 )
+DEFINED_PHASES=compile install postinst prepare
+DEPEND=virtual/opengl sdl? ( media-libs/libsdl2 ) !sdl? ( media-libs/libpulse x11-libs/libX11 )
+DESCRIPTION=Classic Tomb Raider open-source engine
+EAPI=8
+HOMEPAGE=xproger.info/projects/openlara/
+IUSE=+sdl debug
+KEYWORDS=~amd64
+LICENSE=BSD-2
+RDEPEND=virtual/opengl sdl? ( media-libs/libsdl2 ) !sdl? ( media-libs/libpulse x11-libs/libX11 )
+SLOT=0
+SRC_URI=https://github.com/XProger/OpenLara/archive/c7e6e5f763b5632202d64f0b247bdad146a06a1e.zip -> openlara-1.0_pre20220703.zip
+_md5_=01a771a79466cb7d3a2e8aa80bbe7125

@@ -1,0 +1,11 @@
+DEFINED_PHASES=prepare
+DEPEND=dev-libs/openssl =dev-libs/libpe-20210119
+DESCRIPTION=The PE file analysis toolkit
+EAPI=7
+HOMEPAGE=http://pev.sf.net
+KEYWORDS=amd64
+LICENSE=GPL-2 openssl
+RDEPEND=dev-libs/openssl =dev-libs/libpe-20210119
+SLOT=0
+SRC_URI=https://github.com/merces/pev/archive/refs/tags/v0.81.tar.gz -> pev-0.81.tar.gz
+_md5_=b4079fb2a24fd2e5289219c9bb160878

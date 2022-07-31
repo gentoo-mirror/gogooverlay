@@ -1,0 +1,11 @@
+DEFINED_PHASES=install prepare
+DEPEND=dev-libs/openssl
+DESCRIPTION=The PE library used by pev
+EAPI=8
+HOMEPAGE=pev.sf.net
+KEYWORDS=amd64
+LICENSE=LGPL-3
+RDEPEND=dev-libs/openssl
+SLOT=0
+SRC_URI=https://github.com/merces/libpe/archive/277ee7a724dd5828c3a1f589b3a7807e2ead1a2c.zip
+_md5_=64bf38721e355c50df73dc55112d643d
