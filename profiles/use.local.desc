@@ -29,6 +29,7 @@ games-fps/vkQuake:xmp - Add libxmp support for playing of Soundtracker-style mus
 media-fonts/powerline-fonts:3270 - Install Powerline-patched 3270 fonts
 media-fonts/powerline-fonts:anonymouspro - Install Powerline-patched Anonymous Pro fonts
 media-fonts/powerline-fonts:arimo - Install Powerline-patched Arimo fonts
+media-fonts/powerline-fonts:bdf - Install bitmap fonts in outdated Glyph Bitmap Distribution Format
 media-fonts/powerline-fonts:cousine - Install Powerline-patched Cousine fonts
 media-fonts/powerline-fonts:dejavusansmono - Install Powerline-patched DejaVu Sans Mono fonts
 media-fonts/powerline-fonts:droidsansmono - Install Powerline-patched Droid Sans Mono fonts
@@ -46,10 +47,13 @@ media-fonts/powerline-fonts:mesloslashed - Install Powerline-patched Meslo Slash
 media-fonts/powerline-fonts:monofur - Install Powerline-patched Monofur fonts
 media-fonts/powerline-fonts:notomono - Install Powerline-patched Noto Mono fonts
 media-fonts/powerline-fonts:novamono - Install Powerline-patched Nova Mono fonts
+media-fonts/powerline-fonts:pcf - Install bitmap fonts in Portable Compiled Format
+media-fonts/powerline-fonts:profont - Install Powerline-patched ProFont fonts
+media-fonts/powerline-fonts:psf - Install bitmap fonts as PC Screen Font (for low level use)
 media-fonts/powerline-fonts:robotomono - Install Powerline-patched Roboto Mono fonts
 media-fonts/powerline-fonts:sourcecodepro - Install Powerline-patched Source Code Pro fonts
 media-fonts/powerline-fonts:spacemono - Install Powerline-patched Space Mono fonts
 media-fonts/powerline-fonts:symbolneu - Install Powerline-patched Symbol Neu fonts
-media-fonts/powerline-fonts:terminus_pcf - Install Powerline-patched Terminus fonts in PCF format
+media-fonts/powerline-fonts:terminus - Install Powerline-patched Terminus fonts
 media-fonts/powerline-fonts:tinos - Install Powerline-patched Tinos fonts
 media-fonts/powerline-fonts:ubuntumono - Install Powerline-patched Ubuntu Mono fonts
