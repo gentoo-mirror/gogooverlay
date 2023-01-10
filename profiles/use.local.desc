@@ -10,6 +10,10 @@ app-misc/font-manager:nemo - Build Nemo extension
 app-misc/font-manager:reproducible - Make the build reproducible
 app-misc/font-manager:thunar - Build Thunar extension
 app-misc/font-manager:viewer - Build font-viewer
+games-fps/dsda-doom:dumb - Enable support for various tracker-style music formats via media-libs/dumb
+games-fps/dsda-doom:fluidsynth - Enable support for MIDI via media-sound/fluidsynth
+games-fps/dsda-doom:portmidi - Enable support for MIDI via media-libs/portmidi
+games-fps/dsda-doom:sdl2-image - Enable support for high-resolution texture support via media-libs/sdl2-image
 games-fps/ecwolf:non-free - Build with MAME OPL implimentation
 games-fps/rbdoom3-bfg:binkdec - Use included libbinkdec to render Bink videos
 games-fps/rbdoom3-bfg:classic - Build with The Ultimate DOOM and DOOM 2
