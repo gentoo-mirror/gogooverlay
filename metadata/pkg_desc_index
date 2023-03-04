@@ -3,7 +3,7 @@ app-misc/pev 0.81 9999: The PE file analysis toolkit
 dev-libs/libpe 20210119 20210819: The PE library used by pev
 games-action/openlara 1.0_pre20220703-r1: Classic Tomb Raider open-source engine
 games-action/reflection-hle 20211231: Ports of Keen Dreams, the 3D Catacomb games and Wolfenstein 3D
-games-emulation/jrommanager-bin 2.5.1-r1: AppImage release of JRomManager
+games-emulation/jrommanager-bin 2.5.1-r2: AppImage release of JRomManager
 games-fps/CatacombGL 0.5.4 9999: Catacomb source port with OpenGL graphics
 games-fps/alephone 20220115 99999999: An enhanced version of the game engine from the classic Mac game, Marathon
 games-fps/alephone-durandal 20220115: Aleph One - Marathon 2 (Durandal)
