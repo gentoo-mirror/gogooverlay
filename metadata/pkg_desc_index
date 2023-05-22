@@ -1,6 +1,6 @@
 app-misc/font-manager 0.8.8-r1 9999: A simple font management application for Gtk+ Desktop Environments
-app-misc/pev 0.81 9999: The PE file analysis toolkit
-dev-libs/libpe 20210119 20210819: The PE library used by pev
+app-misc/pev 0.81 0.82 9999: The PE file analysis toolkit
+dev-libs/libpe 0.82-r1: The PE library used by pev
 games-action/openlara 1.0_pre20220703-r1: Classic Tomb Raider open-source engine
 games-action/opentomb 20200529-r1: An open-source Tomb Raider 1-5 engine remake
 games-action/reflection-hle 20221014: Ports of Keen Dreams, the 3D Catacomb games and Wolfenstein 3D
