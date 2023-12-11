@@ -1,0 +1,11 @@
+DEFINED_PHASES=prepare
+DEPEND=dev-libs/openssl =dev-libs/libpe-0.83
+DESCRIPTION=The PE file analysis toolkit
+EAPI=7
+HOMEPAGE=http://pev.sf.net
+KEYWORDS=amd64
+LICENSE=GPL-2 openssl
+RDEPEND=dev-libs/openssl =dev-libs/libpe-0.83
+SLOT=0
+SRC_URI=https://github.com/mentebinaria/readpe/archive/refs/tags/v0.83.tar.gz -> readpe-0.83.tar.gz
+_md5_=edc135b2e08f47dca42403e88db79279

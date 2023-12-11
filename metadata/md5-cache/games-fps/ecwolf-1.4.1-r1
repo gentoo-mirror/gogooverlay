@@ -1,0 +1,15 @@
+BDEPEND=>=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
+DEFINED_PHASES=compile configure install postinst prepare test
+DEPEND=media-libs/libsdl[opengl] media-libs/sdl-mixer media-libs/sdl-net sys-libs/zlib app-arch/bzip2 media-libs/libjpeg-turbo x11-libs/gtk+ app-arch/xz-utils
+DESCRIPTION=ECWolf is a port of the Wolfenstein 3D engine based of Wolf4SDL.
+EAPI=8
+HOMEPAGE=https://maniacsvault.net/ecwolf/
+INHERIT=cmake
+IUSE=non-free
+KEYWORDS=amd64 86
+LICENSE=BSD GPL-2+ MIT non-free? ( XMAME )
+RDEPEND=media-libs/libsdl[opengl] media-libs/sdl-mixer media-libs/sdl-net sys-libs/zlib app-arch/bzip2 media-libs/libjpeg-turbo x11-libs/gtk+ app-arch/xz-utils
+SLOT=0
+SRC_URI=https://bitbucket.org/ecwolf/ecwolf/get/1.4.1.tar.gz -> ecwolf-1.4.1.tar.gz
+_eclasses_=toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	b97a0a7215b2f463a485ff0599ab30bb	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	39e7a84b06eff4efd9f2e0c3d1668b98	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	0f2e0c197fad0312f3c4765c9cf36271
+_md5_=e15504eb2054251f61d6de35982230db
