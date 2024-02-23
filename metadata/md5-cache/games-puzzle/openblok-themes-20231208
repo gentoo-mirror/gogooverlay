@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DEPEND=games-puzzle/openblok
+EAPI=8
+KEYWORDS=~amd64
+RDEPEND=games-puzzle/openblok
+RESTRICT=bindist
+SLOT=0
+SRC_URI=https://github.com/mmatyas/openblok-theme-gameboy/archive/ea6ef1c1f8a5240596515f2977bcfd2aa7b78d51.zip -> gameboy.zip https://github.com/mmatyas/openblok-theme-puyo/archive/69a25bea326507287db3cbe6ddc7dadc352d24e1.zip -> puyo.zip
+_md5_=606dcd22d3180a7d0fd6646eafe19132
