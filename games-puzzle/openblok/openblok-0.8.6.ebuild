@@ -15,7 +15,6 @@ KEYWORDS="~amd64"
 IUSE="flac jpeg mod mp3 test"
 
 DEPEND="
-	dev-util/cmake
 	media-libs/libsdl2
 	media-libs/sdl2-mixer[flac?,mod?,mp3?]
 	media-libs/sdl2-image[jpeg?]

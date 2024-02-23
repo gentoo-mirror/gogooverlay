@@ -21,7 +21,7 @@ DEPEND="
 	ttf? ( media-libs/sdl2-ttf )
 "
 RDEPEND="${DEPEND}"
-BDEPEND="dev-util/cmake"
+BDEPEND=""
 
 src_configure() {
 	local mycmakeargs=(
