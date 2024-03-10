@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=Maintenance tools for overlay-filesystem
+EAPI=8
+HOMEPAGE=https://github.com/kmxz/overlayfs-tools
+KEYWORDS=~amd64
+LICENSE=WTFPL-2
+SLOT=0
+SRC_URI=https://github.com/whole-tale/overlayfs-tools/archive/b5e5a829895ac98ccfe4629fbfbd8b819262bd00.zip -> overlayfs-tools-20230929.zip
+_md5_=b15018ac2d18216da8a33ec296087582

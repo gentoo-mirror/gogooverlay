@@ -1,0 +1,11 @@
+DEFINED_PHASES=install prepare
+DEPEND=sys-fs/fuse
+DESCRIPTION=AppImage release of JRomManager
+EAPI=8
+HOMEPAGE=https://github.com/optyfr/JRomManager
+LICENSE=GPL-2
+RDEPEND=sys-fs/fuse !games-emulation/jrommanager
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/optyfr/JRomManager/releases/download/3.0.0-beta.20/JRomManager-3.0.0-x86_64.AppImage -> jrommanager-bin-3.0.0_beta20.AppImage
+_md5_=4a220faade4069a96ee5e967cc5be232
