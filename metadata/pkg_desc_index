@@ -6,7 +6,7 @@ games-action/openlara 1.0_pre20220703-r1: Classic Tomb Raider open-source engine
 games-action/opentomb 20200529-r1: An open-source Tomb Raider 1-5 engine remake
 games-action/reflection-hle 20221014: Ports of Keen Dreams, the 3D Catacomb games and Wolfenstein 3D
 games-board/morris 0.3: GTK implementation of the board game Nine Men's Morris
-games-emulation/jrommanager-bin 2.5.1-r2 3.0.0_beta20: AppImage release of JRomManager
+games-emulation/jrommanager-bin 2.5.1-r2 3.0.0_beta20 3.0.0: AppImage release of JRomManager
 games-emulation/mame-libretro 0.251 9999: MAME (current) for libretro.
 games-fps/CatacombGL 0.5.4 9999: Catacomb source port with OpenGL graphics
 games-fps/dsda-doom 0.26.1 0.27.4 0.27.5-r1: Speedrunning focused fork of prboom+ with extra tooling for demos.
