@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare pretend setup unpack
+DESCRIPTION=MAME (current) for libretro.
+EAPI=7
+HOMEPAGE=https://github.com/libretro/mame
+INHERIT=check-reqs libretro-core
+IUSE=debug
+KEYWORDS=~amd64 ~x86
+LICENSE=MAME-GPL
+RDEPEND=games-emulation/libretro-info
+SLOT=0
+SRC_URI=https://github.com/libretro/mame/archive/6d6d21fd9e41dab2b0e0ca0587baf3fcad18fd67.tar.gz -> mame-libretro-0.263.tar.gz
+_eclasses_=check-reqs	02ac7654b64f7acc7a8b1a35ad9d6ddc	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	288c54efeb5e2aa70775e39032695ad4	libretro-core	ae950968743a16d28d87ea74758f3d87
+_md5_=79dbfdfefa1d4ff906875d283569689c

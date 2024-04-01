@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install postinst postrm
+DEPEND=dev-util/glslang media-libs/libsdl2 net-misc/curl virtual/opengl openal? ( media-libs/openal ) system-vorbis? ( media-libs/libvorbis ) system-opus? ( media-libs/opus media-libs/opusfile ) system-zlib? ( sys-libs/zlib ) system-jpeg? ( virtual/jpeg ) system-freetype? ( media-libs/freetype ) system-ogg? ( media-libs/libogg ) mumble? ( net-voip/mumble ) starter? ( sys-fs/unionfs-fuse )
+DESCRIPTION=ioquake3 port of Return to Castle Wolfenstein
+EAPI=8
+HOMEPAGE=https://github.com/iortcw/iortcw
+INHERIT=xdg-utils flag-o-matic toolchain-funcs
+IUSE=+starter +bloom debug +openal +vorbis +opus +freetype +voip mumble +xdg yacc +system-ogg +system-vorbis +system-opus +system-zlib +system-jpeg +system-freetype
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3 ZLIB RSA
+RDEPEND=dev-util/glslang media-libs/libsdl2 net-misc/curl virtual/opengl openal? ( media-libs/openal ) system-vorbis? ( media-libs/libvorbis ) system-opus? ( media-libs/opus media-libs/opusfile ) system-zlib? ( sys-libs/zlib ) system-jpeg? ( virtual/jpeg ) system-freetype? ( media-libs/freetype ) system-ogg? ( media-libs/libogg ) mumble? ( net-voip/mumble ) starter? ( sys-fs/unionfs-fuse )
+SLOT=0
+SRC_URI=https://github.com/iortcw/iortcw/archive/1.51c.tar.gz -> iortcw-1.51c.tar.gz
+_eclasses_=xdg-utils	baea6080dd821f5562d715887954c9d3	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	288c54efeb5e2aa70775e39032695ad4
+_md5_=fa9cee695f234a621135669c746efde9
