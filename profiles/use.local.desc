@@ -11,6 +11,10 @@ app-misc/font-manager:reproducible - Make the build reproducible
 app-misc/font-manager:thunar - Build Thunar extension
 app-misc/font-manager:viewer - Build font-viewer
 games-action/opentomb:system-freetype - Dynamic link system freetype
+games-fps/crl:asan - Enable Address sanitizer for debugging
+games-fps/crl:fluidsynth - Enable support for MIDI via media-sound/fluidsynth
+games-fps/crl:net - Enable support for network play
+games-fps/crl:sdl2-mixer - Enable support for Sound/MIDI via media-libs/sdl2-mixer
 games-fps/dsda-doom:dumb - Enable support for various tracker-style music formats via media-libs/dumb
 games-fps/dsda-doom:fluidsynth - Enable support for MIDI via media-sound/fluidsynth
 games-fps/dsda-doom:portmidi - Enable support for MIDI via media-libs/portmidi
