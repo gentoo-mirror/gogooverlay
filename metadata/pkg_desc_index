@@ -1,4 +1,4 @@
-app-misc/font-manager 0.8.8-r1 9999: A simple font management application for Gtk+ Desktop Environments
+app-misc/font-manager 0.8.8-r1 0.8.9 9999: A simple font management application for Gtk+ Desktop Environments
 app-misc/pev 0.83: The PE file analysis toolkit
 app-misc/readpe 0.84 9999: The PE file analysis toolkit
 dev-libs/libpe 0.84: The PE library used by pev
