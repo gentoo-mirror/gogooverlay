@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=dev-libs/libzip media-libs/libsdl media-libs/sdl-image net-misc/curl sys-libs/zlib x11-libs/libX11
+DESCRIPTION=Apple 2e emulator
+EAPI=8
+HOMEPAGE=https://github.com/linappleii/linapple
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=dev-libs/libzip media-libs/libsdl media-libs/sdl-image net-misc/curl sys-libs/zlib x11-libs/libX11
+SLOT=0
+SRC_URI=https://github.com/linappleii/linapple/archive/eb1f22e6093bc95cc93756fb905180d01c28656b.zip -> linapple-20231017.zip
+_md5_=d6ae9be934c79013bd75d4062f045470

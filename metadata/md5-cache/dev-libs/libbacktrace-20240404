@@ -1,0 +1,9 @@
+DEFINED_PHASES=-
+DESCRIPTION=C library that may be linked to produce symbolic backtraces
+EAPI=8
+HOMEPAGE=https://github.com/ianlancetaylor/libbacktrace
+KEYWORDS=~amd64
+LICENSE=BSD
+SLOT=0
+SRC_URI=https://github.com/ianlancetaylor/libbacktrace/archive/11427f31a64b11583fec94b4c2a265c7dafb1ab3.zip
+_md5_=2609120a3550df11a16860e2b2bd6ca3

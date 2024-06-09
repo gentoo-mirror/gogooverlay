@@ -15,11 +15,27 @@ games-fps/crl:asan - Enable Address sanitizer for debugging
 games-fps/crl:fluidsynth - Enable support for MIDI via media-sound/fluidsynth
 games-fps/crl:net - Enable support for network play
 games-fps/crl:sdl2-mixer - Enable support for Sound/MIDI via media-libs/sdl2-mixer
+games-fps/dhewm3:base - Add support for the Doom 3 base game
+games-fps/dhewm3:client - Build playable game executable - disable for server installation
+games-fps/dhewm3:d3xp - Add support for Doom 3: Resurrection of Evil expansion
 games-fps/dsda-doom:dumb - Enable support for various tracker-style music formats via media-libs/dumb
 games-fps/dsda-doom:fluidsynth - Enable support for MIDI via media-sound/fluidsynth
 games-fps/dsda-doom:portmidi - Enable support for MIDI via media-libs/portmidi
 games-fps/dsda-doom:sdl2-image - Enable support for high-resolution texture support via media-libs/sdl2-image
 games-fps/ecwolf:non-free - Build with MAME OPL implimentation
+games-fps/iortcw:bloom - Add support for bloom post-processing
+games-fps/iortcw:freetype - Add support for truetype
+games-fps/iortcw:mumble - Add support for voip using mumble via net-voip/mumble
+games-fps/iortcw:starter - Install script to launch the game easier via sys-fs/unionfs-fuse
+games-fps/iortcw:system-freetype - Use system freetype instead of bundled
+games-fps/iortcw:system-jpeg - Use system jpeg library instead of bundled
+games-fps/iortcw:system-ogg - Use system ogg library instead of bundled
+games-fps/iortcw:system-opus - Use system opus library instead of bundled
+games-fps/iortcw:system-vorbis - Use system vorbis library instead of bundled
+games-fps/iortcw:system-zlib - Use system zlib instead of bundled
+games-fps/iortcw:voip - Add in-game voip support
+games-fps/iortcw:xdg - Use XDG complient folder structure
+games-fps/iortcw:yacc - Use yacc to update code/tools/lcc/lburg/gram.c (Not Recommended)
 games-fps/rbdoom3-bfg:binkdec - Use included libbinkdec to render Bink videos
 games-fps/rbdoom3-bfg:classic - Build with The Ultimate DOOM and DOOM 2
 games-fps/rbdoom3-bfg:sdl2 - Use SDL2 instead of SDL1.2
@@ -35,6 +51,7 @@ games-fps/vkQuake:tremor - Enable tremor audio codec for vorbis files
 games-fps/vkQuake:umx - Add buildin umx support for playing Soundtracker-style music files
 games-fps/vkQuake:wav - Enable wav audio codec for wavetable files
 games-fps/vkQuake:xmp - Add libxmp support for playing of Soundtracker-style music files
+games-puzzle/openblok:mod - Add support for SoundTracker-style music files
 media-fonts/powerline-fonts:3270 - Install Powerline-patched 3270 fonts
 media-fonts/powerline-fonts:anonymouspro - Install Powerline-patched Anonymous Pro fonts
 media-fonts/powerline-fonts:arimo - Install Powerline-patched Arimo fonts
@@ -66,3 +83,23 @@ media-fonts/powerline-fonts:symbolneu - Install Powerline-patched Symbol Neu fon
 media-fonts/powerline-fonts:terminus - Install Powerline-patched Terminus fonts
 media-fonts/powerline-fonts:tinos - Install Powerline-patched Tinos fonts
 media-fonts/powerline-fonts:ubuntumono - Install Powerline-patched Ubuntu Mono fonts
+media-libs/libSDL2pp:image - Add support for media-libs/sdl2-image
+media-libs/libSDL2pp:mixer - Add support for media-libs/sdl2-mixer
+media-libs/libSDL2pp:ttf - Add support for media-libs/sdl2-ttf
+media-libs/libsdl3:cpu_flags_loong_lasx - Use LASX instruction set (Loongarch)
+media-libs/libsdl3:cpu_flags_loong_lsx - Use LSX instruction set (Loongarch)
+media-libs/libsdl3:gles - Enable GLES (OpenGL for Embedded Systems) support
+media-libs/libsdl3:haptic - Enable the haptic (force feedback) subsystem
+media-libs/libsdl3:hidapi - Enable the human interface device subsystem
+media-libs/libsdl3:ibus - Enable support for app-i18n/ibus
+media-libs/libsdl3:joystick - Control joystick support (disable at your own risk)
+media-libs/libsdl3:kms - Build the KMSDRM video driver
+media-libs/libsdl3:libdecor - Use client-side window decorations on Wayland
+media-libs/libsdl3:libusb - Use libusb for low level joystick drivers
+media-libs/libsdl3:pic - Disable optimized assembly code that is not PIC friendly
+media-libs/libsdl3:pipewire - Enable support for the media-video/pipewire audio backend
+media-libs/libsdl3:sndio - Enable support for the media-sound/sndio backend
+media-libs/libsdl3:sound - Control audio support (disable at your own risk)
+media-libs/libsdl3:video - Control video support (disable at your own risk)
+media-libs/libsdl3:video_cards_rockchip - Use ROCKCHIP Hardware Acceleration video driver (ARM/AARCH64)
+media-libs/libsdl3:webcam - Enable the camera subsystem
