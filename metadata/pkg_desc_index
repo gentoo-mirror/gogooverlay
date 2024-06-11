@@ -24,7 +24,7 @@ games-fps/vkQuake 1.30.1: Vulkan Quake port based on QuakeSpasm
 games-fps/vkQuake2 1.5.8 1.5.9-r1: id Software's Quake 2 v3.21 with mission packs and Vulkan support
 games-puzzle/openblok 0.8.6 0.8.7: A customizable, open-source falling block game.
 games-util/vkBasalt 0.3.2.10 9999-r1: A vulkan post processing layer
-media-fonts/powerline-fonts 9999 20181111: Monospaced fonts pre-patched with Powerline symbols
+media-fonts/powerline-fonts 9999 20181111-r1: Monospaced fonts pre-patched with Powerline symbols
 media-libs/libSDL2pp 0.18.1: C++ bindings for SDL2
 media-libs/libsdl3 3.1.2: Simple Direct Media Layer
 media-libs/sdl3-net 20240508: A simple, cross-platform wrapper over TCP/IP sockets
