@@ -9,5 +9,5 @@ LICENSE=MAME-GPL
 RDEPEND=games-emulation/libretro-info
 SLOT=0
 SRC_URI=https://github.com/libretro/mame/archive/38a4bf055f3faf96ba8099165aec4cc8711a63a6.tar.gz -> mame-libretro-0.266.tar.gz
-_eclasses_=check-reqs	02ac7654b64f7acc7a8b1a35ad9d6ddc	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	d309b9713dfc18e754cba88d3ba69653	libretro-core	ae950968743a16d28d87ea74758f3d87
+_eclasses_=check-reqs	02ac7654b64f7acc7a8b1a35ad9d6ddc	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	e503ea5acc20410237ba33ec3f7c857d	libretro-core	ae950968743a16d28d87ea74758f3d87
 _md5_=279a56a49f1215368d6f36edabd7e5d7

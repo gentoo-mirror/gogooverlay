@@ -10,5 +10,5 @@ LICENSE=GPL-3 ZLIB RSA
 RDEPEND=dev-util/glslang media-libs/libsdl2 net-misc/curl virtual/opengl openal? ( media-libs/openal ) system-vorbis? ( media-libs/libvorbis ) system-opus? ( media-libs/opus media-libs/opusfile ) system-zlib? ( sys-libs/zlib ) system-jpeg? ( virtual/jpeg ) system-freetype? ( media-libs/freetype ) system-ogg? ( media-libs/libogg ) mumble? ( net-voip/mumble ) starter? ( sys-fs/unionfs-fuse )
 SLOT=0
 SRC_URI=https://github.com/iortcw/iortcw/archive/1.51c.tar.gz -> iortcw-1.51c.tar.gz
-_eclasses_=xdg-utils	baea6080dd821f5562d715887954c9d3	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	d309b9713dfc18e754cba88d3ba69653
+_eclasses_=xdg-utils	baea6080dd821f5562d715887954c9d3	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	e503ea5acc20410237ba33ec3f7c857d
 _md5_=fa9cee695f234a621135669c746efde9
