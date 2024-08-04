@@ -1,0 +1,16 @@
+BDEPEND=virtual/pkgconfig >=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array
+DEFINED_PHASES=compile configure install test
+DEPEND=media-libs/libsdl2[vulkan] media-libs/vulkan-loader x11-libs/libX11 flac? ( media-libs/flac ) mad? ( media-libs/libmad ) mpg123? ( media-sound/mpg123 ) tremor? ( media-libs/tremor ) vorbis? ( media-libs/libvorbis )
+DESCRIPTION=Vulkan Quake port based on QuakeSpasm
+EAPI=8
+HOMEPAGE=https://github.com/Novum/vkQuake
+INHERIT=meson
+IUSE=+wav flac opus +mad mpg123 +vorbis tremor
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=media-libs/libsdl2[vulkan] media-libs/vulkan-loader x11-libs/libX11 flac? ( media-libs/flac ) mad? ( media-libs/libmad ) mpg123? ( media-sound/mpg123 ) tremor? ( media-libs/tremor ) vorbis? ( media-libs/libvorbis )
+REQUIRED_USE=^^ ( mad mpg123 ) ^^ ( vorbis tremor )
+SLOT=0
+SRC_URI=https://github.com/Novum/vkQuake/archive/refs/tags/1.31.1.1.tar.gz -> vkQuake-1.31.1.1.tar.gz
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	e503ea5acc20410237ba33ec3f7c857d	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	8b220bbce5c119fb1d4d5c2f5588f3ea	meson	99466844dd8d4fcfb07578a76f5a9922
+_md5_=4b8ba5dcec595c1b2ae4a37783f58882
