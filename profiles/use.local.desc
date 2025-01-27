@@ -2,14 +2,14 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-app-misc/font-manager:gnome-search-provider - Install GNOME shell search provider
 app-misc/font-manager:google-fonts - Google Fonts integration
-app-misc/font-manager:manager - Build font-manager
+app-misc/font-manager:manager - Build Font Manager
 app-misc/font-manager:nautilus - Build Nautilus extension
 app-misc/font-manager:nemo - Build Nemo extension
 app-misc/font-manager:reproducible - Make the build reproducible
 app-misc/font-manager:thunar - Build Thunar extension
-app-misc/font-manager:viewer - Build font-viewer
+app-misc/font-manager:unihan - Install Unihan data
+app-misc/font-manager:viewer - Build Font Viewer
 games-action/opentomb:system-freetype - Dynamic link system freetype
 games-fps/crl:asan - Enable Address sanitizer for debugging
 games-fps/crl:fluidsynth - Enable support for MIDI via media-sound/fluidsynth
