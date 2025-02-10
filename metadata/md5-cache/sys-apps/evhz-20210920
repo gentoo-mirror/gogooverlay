@@ -9,4 +9,4 @@ LICENSE=Apache-2.0 GPL-3+
 RDEPEND=virtual/libc
 SLOT=0
 SRC_URI=https://git.sr.ht/~iank/evhz/archive/35b7526e0655522bbdf92f6384f4e9dff74f38a0.tar.gz -> evhz-20210920.tar.gz
-_md5_=4da5aa7411e00b4e9a53ef2681f931f2
+_md5_=832f884281f1255cc4f65d7097753be6

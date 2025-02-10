@@ -1,10 +1,8 @@
 DEFINED_PHASES=postinst
-DEPEND=app-misc/readpe
 DESCRIPTION=The PE file analysis toolkit
-EAPI=7
+EAPI=8
 HOMEPAGE=http://pev.sf.net
-KEYWORDS=amd64
 LICENSE=GPL-2
 RDEPEND=app-misc/readpe
 SLOT=0
-_md5_=04cece0dae48d9d05556afd1ac64a606
+_md5_=02afc8d66027b18c0703117b4ee1cfc8

@@ -1,14 +1,14 @@
 BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5
 DEFINED_PHASES=compile configure install postinst prepare test
-DEPEND=virtual/jpeg:0 media-libs/libogg media-libs/libsdl2 media-libs/libvorbis media-libs/openal net-misc/curl sys-libs/zlib:=
+DEPEND=media-libs/libjpeg-turbo media-libs/libogg media-libs/libsdl2 media-libs/libvorbis media-libs/openal net-misc/curl sys-libs/zlib:=
 DESCRIPTION=Port of The Lost Missions to dhewm3
 EAPI=7
 HOMEPAGE=https://github.com/dhewm/dhewm3-sdk
 INHERIT=cmake
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=virtual/jpeg:0 media-libs/libogg media-libs/libsdl2 media-libs/libvorbis media-libs/openal net-misc/curl sys-libs/zlib:= games-fps/dhewm3[d3xp]
+RDEPEND=media-libs/libjpeg-turbo media-libs/libogg media-libs/libsdl2 media-libs/libvorbis media-libs/openal net-misc/curl sys-libs/zlib:= games-fps/dhewm3[d3xp]
 SLOT=0
-SRC_URI=https://github.com/dhewm/dhewm3-sdk/archive/0e6e3519b21eae4690810180210cc90b0174dc3d.zip -> dhewm3-d3le-20240419-d3le.zip
+SRC_URI=https://github.com/dhewm/dhewm3-sdk/archive/0e6e3519b21eae4690810180210cc90b0174dc3d.tar.gz -> dhewm3-d3le-20240419-d3le.tar.gz
 _eclasses_=toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	357f1a896fbedcd06e5ce55419c49eb9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	10a50dfaf728b802fcfd37f8d0da9056
-_md5_=a3741d20328236a2ea115dfa8a22a893
+_md5_=703911949465d6c099326a224fd225db

@@ -18,6 +18,7 @@ games-fps/crl:sdl2-mixer - Enable support for Sound/MIDI via media-libs/sdl2-mix
 games-fps/dhewm3:base - Add support for the Doom 3 base game
 games-fps/dhewm3:client - Build playable game executable - disable for server installation
 games-fps/dhewm3:d3xp - Add support for Doom 3: Resurrection of Evil expansion
+games-fps/dhewm3:imgui - Build with Dear ImGui integration
 games-fps/dsda-doom:dumb - Enable support for various tracker-style music formats via media-libs/dumb
 games-fps/dsda-doom:fluidsynth - Enable support for MIDI via media-sound/fluidsynth
 games-fps/dsda-doom:portmidi - Enable support for MIDI via media-libs/portmidi
