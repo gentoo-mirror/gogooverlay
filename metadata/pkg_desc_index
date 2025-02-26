@@ -4,6 +4,7 @@ app-misc/readpe 0.84: The PE file analysis toolkit
 app-vim/graphviz 20231230: vim plugin: graphviz and dot file support
 dev-libs/libbacktrace 20240404: C library that may be linked to produce symbolic backtraces
 dev-libs/libpe 0.84: The PE library used by pev
+dev-util/DirectXShaderCompiler 1.8.2407: Microsoft DirectX Shader Compiler which is based on LLVM/Clang
 games-action/openlara 1.0_pre20220703-r1: Classic Tomb Raider open-source engine
 games-action/opentomb 20200529-r2: An open-source Tomb Raider 1-5 engine remake
 games-action/reflection-hle 20240926: Ports of Keen Dreams, the 3D Catacomb games and Wolfenstein 3D
@@ -19,7 +20,7 @@ games-fps/dhewm3-d3le 20240419: Port of The Lost Missions to dhewm3
 games-fps/dsda-doom 0.28.3: Speedrunning focused fork of prboom+ with extra tooling for demos.
 games-fps/ecwolf 1.4.1-r1 1.5_pre-r1 9999: ECWolf is a port of the Wolfenstein 3D engine based of Wolf4SDL.
 games-fps/iortcw 1.51c: ioquake3 port of Return to Castle Wolfenstein
-games-fps/rbdoom3-bfg 1.4.0-r1: Doom 3 BFG Edition with modern engine features
+games-fps/rbdoom3-bfg 1.4.0-r1 1.5.1: Doom 3 BFG Edition with modern engine features
 games-fps/vkQuake 1.32.0: Vulkan Quake port based on QuakeSpasm
 games-fps/vkQuake2 1.5.9-r1: id Software's Quake 2 v3.21 with mission packs and Vulkan support
 games-puzzle/openblok 0.8.7: A customizable, open-source falling block game.

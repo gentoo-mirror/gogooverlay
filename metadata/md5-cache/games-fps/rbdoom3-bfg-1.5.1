@@ -1,0 +1,16 @@
+BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-util/glslang dev-util/vulkan-headers media-libs/libsdl2 media-libs/openal ffmpeg? ( media-video/ffmpeg ) system-libjpeg? ( media-libs/libjpeg-turbo ) system-libpng? ( media-libs/libpng ) system-rapidjson? ( dev-libs/rapidjson ) system-zlib? ( sys-libs/zlib ) dev-util/DirectXShaderCompiler
+DESCRIPTION=Doom 3 BFG Edition with modern engine features
+EAPI=8
+HOMEPAGE=https://www.moddb.com/mods/rbdoom-3-bfg
+INHERIT=cmake
+IUSE=standalone classic +ffmpeg binkdec +system-zlib +system-libpng +system-libjpeg +system-rapidjson
+KEYWORDS=~amd64
+LICENSE=GPL-3 BSD BSD-1 BSD-2 CC0-1.0 MIT RSA ZLIB public-domain || ( GPL-2 LGPL-2 Artistic ) binkdec? ( LGPL-2.1+ ) !system-libjpeg? ( BSD IJG ZLIB ) !system-zlib? ( ZLIB ) !system-libpng? ( libpng2 ) !system-rapidjson? ( MIT )
+RDEPEND=dev-util/glslang dev-util/vulkan-headers media-libs/libsdl2 media-libs/openal ffmpeg? ( media-video/ffmpeg ) system-libjpeg? ( media-libs/libjpeg-turbo ) system-libpng? ( media-libs/libpng ) system-rapidjson? ( dev-libs/rapidjson ) system-zlib? ( sys-libs/zlib ) dev-util/DirectXShaderCompiler
+REQUIRED_USE=?? ( ffmpeg binkdec ) standalone? ( !classic )
+SLOT=0
+SRC_URI=https://github.com/RobertBeckebans/RBDOOM-3-BFG/archive/refs/tags/v1.5.1.tar.gz -> rbdoom3-bfg-1.5.1.tar.gz https://github.com/RobertBeckebans/nvrhi/archive/1cbc9e9d16f997948c429739b1a1886fb4d0c796.tar.gz -> rbdoom3-bfg-1.5.1-nvrhi.tar.gz https://github.com/jarro2783/cxxopts/archive/302302b30839505703d37fb82f536c53cf9172fa.tar.gz -> rbdoom3-bfg-1.5.1-cxxopts.tar.gz https://github.com/KhronosGroup/Vulkan-Headers/archive/0193e158bc9f4d17e3c3a61c9311a0439ed5572d.tar.gz -> rbdoom3-bfg-1.5.1-vulkan.tar.gz
+_eclasses_=toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	357f1a896fbedcd06e5ce55419c49eb9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	10a50dfaf728b802fcfd37f8d0da9056
+_md5_=e5d9c1e33c16900dd6e652a30c5164c8
