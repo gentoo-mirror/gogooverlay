@@ -13,11 +13,11 @@ games-emulation/jrommanager-bin 3.0.5: AppImage release of JRomManager
 games-emulation/linapple 20231017: Apple 2e emulator
 games-emulation/mame-libretro 0.251 0.267 9999: MAME (current) for libretro.
 games-fps/CatacombGL 0.5.7: Catacomb source port with OpenGL graphics
-games-fps/Doom64EX-Plus 4.0.0.3: An improved modern version of Doom64EX
+games-fps/Doom64EX-Plus 4.0.0.3-r1: An improved modern version of Doom64EX
 games-fps/crl 1.9: Playtesting focused Doom engine
 games-fps/dhewm3 1.5.4: A Doom 3 GPL source modification.
 games-fps/dhewm3-d3le 20240419: Port of The Lost Missions to dhewm3
-games-fps/dsda-doom 0.28.3: Speedrunning focused fork of prboom+ with extra tooling for demos.
+games-fps/dsda-doom 0.29.0: Speedrunning focused fork of prboom+ with extra tooling for demos.
 games-fps/ecwolf 1.4.1-r1 1.5_pre-r1 9999: ECWolf is a port of the Wolfenstein 3D engine based of Wolf4SDL.
 games-fps/iortcw 1.51c: ioquake3 port of Return to Castle Wolfenstein
 games-fps/rbdoom3-bfg 1.4.0-r1 1.5.1: Doom 3 BFG Edition with modern engine features
