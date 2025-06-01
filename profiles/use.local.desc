@@ -37,16 +37,13 @@ games-fps/iortcw:system-zlib - Use system zlib instead of bundled
 games-fps/iortcw:voip - Add in-game voip support
 games-fps/iortcw:xdg - Use XDG complient folder structure
 games-fps/iortcw:yacc - Use yacc to update code/tools/lcc/lburg/gram.c (Not Recommended)
-games-fps/rbdoom3-bfg:binkdec - Use included libbinkdec to render Bink videos
 games-fps/rbdoom3-bfg:classic - Build with The Ultimate DOOM and DOOM 2
-games-fps/rbdoom3-bfg:sdl2 - Use SDL2 instead of SDL1.2
-games-fps/rbdoom3-bfg:standalone - Skip DOOM-3-BFG base/ folder and use assets/ instead
-games-fps/rbdoom3-bfg:system-libglew - Use the system libglew instead of the bundled one
-games-fps/rbdoom3-bfg:system-libjpeg - Use the system libjpeg instead of the bundled one
-games-fps/rbdoom3-bfg:system-libpng - Use the system libpng instead of the bundled one
+games-fps/rbdoom3-bfg:prebaked - Add prebaked global illumination data (Recommended)
+games-fps/rbdoom3-bfg:rbdmap - Install the DOOM-3-BFG map compiler
+games-fps/rbdoom3-bfg:shadermake - Install internal shader tool (Only good for debugging)
+games-fps/rbdoom3-bfg:standalone - Skip DOOM-3-BFG base/ folder and use content/ instead
 games-fps/rbdoom3-bfg:system-rapidjson - Use the system rapidjson instead of the bundled one
 games-fps/rbdoom3-bfg:system-zlib - Use the system zlib instead of the bundled one
-games-fps/rbdoom3-bfg:vulkan - Use Vulkan instead of OpenGL (lacks most advanced features)
 games-fps/vkQuake:mpg123 - Enable mpg123 audio codec for mp3 files
 games-fps/vkQuake:tremor - Enable tremor audio codec for vorbis files
 games-fps/vkQuake:umx - Add buildin umx support for playing Soundtracker-style music files

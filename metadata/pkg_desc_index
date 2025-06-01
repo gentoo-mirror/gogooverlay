@@ -20,8 +20,8 @@ games-fps/dhewm3-d3le 20240419: Port of The Lost Missions to dhewm3
 games-fps/dsda-doom 0.29.0: Speedrunning focused fork of prboom+ with extra tooling for demos.
 games-fps/ecwolf 1.4.1-r1 1.5_pre-r1 9999: ECWolf is a port of the Wolfenstein 3D engine based of Wolf4SDL.
 games-fps/iortcw 1.51c: ioquake3 port of Return to Castle Wolfenstein
-games-fps/rbdoom3-bfg 1.4.0-r1 1.5.1: Doom 3 BFG Edition with modern engine features
-games-fps/vkQuake 1.32.1: Vulkan Quake port based on QuakeSpasm
+games-fps/rbdoom3-bfg 1.6.0: Doom 3 BFG Edition with modern engine features
+games-fps/vkQuake 1.32.2: Vulkan Quake port based on QuakeSpasm
 games-fps/vkQuake2 1.5.9-r1: id Software's Quake 2 v3.21 with mission packs and Vulkan support
 games-puzzle/openblok 0.8.7: A customizable, open-source falling block game.
 games-util/vkBasalt 0.3.2.10 9999-r1: A vulkan post processing layer
