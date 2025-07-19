@@ -5,7 +5,10 @@
 		<email>GoGoOtaku+Ebuild@gmail.com</email>
 	</maintainer>
 	<upstream>
-		<remote-id type="github">libretro/mame</remote-id>
-		<bugs-to>https://github.com/libretro/mame/issues</bugs-to>
+		<remote-id type="gnome-gitlab">GNOME/msitools</remote-id>
+		<bugs-to>https://gitlab.gnome.org/GNOME/msitools/-/issues</bugs-to>
 	</upstream>
+	<use>
+		<flag name="non-free">Install none free parts that are required for certain UI tasks</flag>
+	</use>
 </pkgmetadata>

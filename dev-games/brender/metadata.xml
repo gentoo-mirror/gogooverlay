@@ -5,7 +5,10 @@
 		<email>GoGoOtaku+Ebuild@gmail.com</email>
 	</maintainer>
 	<upstream>
-		<remote-id type="github">libretro/mame</remote-id>
-		<bugs-to>https://github.com/libretro/mame/issues</bugs-to>
+		<remote-id type="github">dethrace-labs/BRender-v1.3.2</remote-id>
 	</upstream>
+	<use>
+		<flag name="drivers">Compile different render backends</flag>
+		<flag name="asan">Enable address sanatization</flag>
+	</use>
 </pkgmetadata>
