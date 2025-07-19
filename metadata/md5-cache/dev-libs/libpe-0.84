@@ -7,5 +7,5 @@ KEYWORDS=amd64
 LICENSE=LGPL-3
 RDEPEND=dev-libs/openssl
 SLOT=0
-SRC_URI=https://github.com/mentebinaria/readpe/archive/refs/tags/v0.84.tar.gz -> libpe-0.84.tar.gz
-_md5_=ecd35fee39517a093d542739b509c281
+SRC_URI=https://github.com/mentebinaria/readpe/archive/refs/tags/v0.84.tar.gz -> readpe-0.84.tar.gz
+_md5_=cb6a00832ee35098baf58ce51975389c

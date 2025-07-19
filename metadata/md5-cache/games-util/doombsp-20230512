@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=id Software's node builder for Doom, made cross-platform
+EAPI=8
+HOMEPAGE=https://github.com/teefoss/doombsp
+KEYWORDS=~amd64
+LICENSE=DUL
+SLOT=0
+SRC_URI=https://github.com/teefoss/doombsp/archive/01969e4508a40e69b735df3362da308a0abb3d96.tar.gz -> doombsp-20230512.tar.gz
+_md5_=20205ef0bb5dbb3d8f1dce41fc278874

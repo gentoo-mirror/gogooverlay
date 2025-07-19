@@ -10,7 +10,12 @@ app-misc/font-manager:reproducible - Make the build reproducible
 app-misc/font-manager:thunar - Build Thunar extension
 app-misc/font-manager:unihan - Install Unihan data
 app-misc/font-manager:viewer - Build Font Viewer
+dev-games/brender:asan - Enable address sanatization
+dev-games/brender:drivers - Compile different render backends
+dev-util/msitools:non-free - Install none free parts that are required for certain UI tasks
+games-action/dethrace:bugs - Keep bugs from the original game intact.
 games-action/opentomb:system-freetype - Dynamic link system freetype
+games-arcade/cambridge:discord - Install discord integration
 games-fps/crl:asan - Enable Address sanitizer for debugging
 games-fps/crl:fluidsynth - Enable support for MIDI via media-sound/fluidsynth
 games-fps/crl:net - Enable support for network play
@@ -37,6 +42,18 @@ games-fps/iortcw:system-zlib - Use system zlib instead of bundled
 games-fps/iortcw:voip - Add in-game voip support
 games-fps/iortcw:xdg - Use XDG complient folder structure
 games-fps/iortcw:yacc - Use yacc to update code/tools/lcc/lburg/gram.c (Not Recommended)
+games-fps/nblood:clang - Use clang as compiler
+games-fps/nblood:etekwar - Build etekwar for playing Shatner's TekWar
+games-fps/nblood:ewitchaven - Build ewitchaven for playing Witchaven I and II
+games-fps/nblood:force-short-tool-names - Omit "nblood-" prefix from tools
+games-fps/nblood:gtk - Build gtk launcher for nblood, pcexhumed and rednukem
+games-fps/nblood:nblood - Build nblood for playing Blood
+games-fps/nblood:opengl - Build with OpenGL support (Recommended)
+games-fps/nblood:pcexhumed - Build pcexhumed for playing Exhumed
+games-fps/nblood:rednukem - Build rednukem for playing various Build Engine games (e.g. Duke3D)
+games-fps/nblood:server - Add multiplayer support
+games-fps/nblood:tools - Build tools for debugging and modding
+games-fps/nblood:voidsw - Build voidsw for playing Shadow Warrior (Classic)
 games-fps/rbdoom3-bfg:classic - Build with The Ultimate DOOM and DOOM 2
 games-fps/rbdoom3-bfg:prebaked - Add prebaked global illumination data (Recommended)
 games-fps/rbdoom3-bfg:rbdmap - Install the DOOM-3-BFG map compiler
@@ -44,6 +61,17 @@ games-fps/rbdoom3-bfg:shadermake - Install internal shader tool (Only good for d
 games-fps/rbdoom3-bfg:standalone - Skip DOOM-3-BFG base/ folder and use content/ instead
 games-fps/rbdoom3-bfg:system-rapidjson - Use the system rapidjson instead of the bundled one
 games-fps/rbdoom3-bfg:system-zlib - Use the system zlib instead of the bundled one
+games-fps/uhexen2:client - Build Hexen 2 game executable (Recommended)
+games-fps/uhexen2:demo - Build Hexen 2 demo version
+games-fps/uhexen2:mpg123 - Enable support for MPEG audio playback via media-sound/mpg123
+games-fps/uhexen2:server - Build Hexen 2 multiplayer server
+games-fps/uhexen2:soft - Enable support for software rendering
+games-fps/uhexen2:tremor - Enable support for OggVorbis via media-libs/tremor
+games-fps/uhexen2:umx - Enable support for tracker music via media-libs/libumx
+games-fps/uhexen2:utils - Build Hexen 2 utils for modding and working with data files
+games-fps/uhexen2:wav - Enable wav audio codec for wavetable files
+games-fps/uhexen2:wildmidi - Enable support for MIDI files via media-libs/wildmidi
+games-fps/uhexen2:world - Build Hexenworld executables
 games-fps/vkQuake:mpg123 - Enable mpg123 audio codec for mp3 files
 games-fps/vkQuake:tremor - Enable tremor audio codec for vorbis files
 games-fps/vkQuake:umx - Add buildin umx support for playing Soundtracker-style music files
@@ -86,20 +114,3 @@ media-fonts/powerline-fonts:ubuntumono - Install Powerline-patched Ubuntu Mono f
 media-libs/libSDL2pp:image - Add support for media-libs/sdl2-image
 media-libs/libSDL2pp:mixer - Add support for media-libs/sdl2-mixer
 media-libs/libSDL2pp:ttf - Add support for media-libs/sdl2-ttf
-media-libs/libsdl3:cpu_flags_loong_lasx - Use LASX instruction set (Loongarch)
-media-libs/libsdl3:cpu_flags_loong_lsx - Use LSX instruction set (Loongarch)
-media-libs/libsdl3:gles - Enable GLES (OpenGL for Embedded Systems) support
-media-libs/libsdl3:haptic - Enable the haptic (force feedback) subsystem
-media-libs/libsdl3:hidapi - Enable the human interface device subsystem
-media-libs/libsdl3:ibus - Enable support for app-i18n/ibus
-media-libs/libsdl3:joystick - Control joystick support (disable at your own risk)
-media-libs/libsdl3:kms - Build the KMSDRM video driver
-media-libs/libsdl3:libdecor - Use client-side window decorations on Wayland
-media-libs/libsdl3:libusb - Use libusb for low level joystick drivers
-media-libs/libsdl3:pic - Disable optimized assembly code that is not PIC friendly
-media-libs/libsdl3:pipewire - Enable support for the media-video/pipewire audio backend
-media-libs/libsdl3:sndio - Enable support for the media-sound/sndio backend
-media-libs/libsdl3:sound - Control audio support (disable at your own risk)
-media-libs/libsdl3:video - Control video support (disable at your own risk)
-media-libs/libsdl3:video_cards_rockchip - Use ROCKCHIP Hardware Acceleration video driver (ARM/AARCH64)
-media-libs/libsdl3:webcam - Enable the camera subsystem

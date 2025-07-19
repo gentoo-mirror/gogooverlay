@@ -1,0 +1,12 @@
+BDEPEND=>=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array
+DEFINED_PHASES=compile configure install test
+DESCRIPTION=Maintenance tools for overlay-filesystem
+EAPI=8
+HOMEPAGE=https://github.com/kmxz/overlayfs-tools
+INHERIT=meson
+KEYWORDS=~amd64
+LICENSE=WTFPL-2
+SLOT=0
+SRC_URI=https://github.com/whole-tale/overlayfs-tools/archive/6e925bbbe747fbb58bc4a95a646907a2101741f6.tar.gz -> overlayfs-tools-20250124.tar.gz
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	601de75299d1a5fb14b475836969af0f	meson	99466844dd8d4fcfb07578a76f5a9922
+_md5_=eb3729db16ff6b58c39b62349c033549

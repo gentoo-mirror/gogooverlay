@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install
+DEPEND=media-libs/libglvnd media-libs/libsdl mad? ( media-libs/libmad ) mpg123? ( media-sound/mpg123 ) vorbis? ( media-libs/libogg media-libs/libvorbis ) tremor? ( media-libs/libogg media-libs/tremor ) flac? ( media-libs/flac ) opus? ( media-libs/libogg media-libs/opus media-libs/opusfile ) mikmod? ( media-libs/libmikmod ) modplug? ( media-libs/libmodplug ) xmp? ( media-libs/libxmp ) timidity? ( media-libs/libtimidity ) wildmidi? ( media-sound/wildmidi )
+DESCRIPTION=Hexen II: Hammer of Thyrion - A cross-platform port of Hexen II
+EAPI=8
+HOMEPAGE=http://uhexen2.sourceforge.net/
+IUSE=+soft +opengl +alsa oss wav flac +vorbis opus mikmod +modplug xmp umx timidity wildmidi +mad mpg123 tremor +client server utils world demo debug
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=media-libs/libglvnd media-libs/libsdl mad? ( media-libs/libmad ) mpg123? ( media-sound/mpg123 ) vorbis? ( media-libs/libogg media-libs/libvorbis ) tremor? ( media-libs/libogg media-libs/tremor ) flac? ( media-libs/flac ) opus? ( media-libs/libogg media-libs/opus media-libs/opusfile ) mikmod? ( media-libs/libmikmod ) modplug? ( media-libs/libmodplug ) xmp? ( media-libs/libxmp ) timidity? ( media-libs/libtimidity ) wildmidi? ( media-sound/wildmidi )
+REQUIRED_USE=|| ( soft opengl ) ^^ ( mad mpg123 ) ^^ ( vorbis tremor ) ^^ ( mikmod modplug xmp umx )
+SLOT=0
+SRC_URI=https://github.com/sezero/uhexen2/archive/refs/tags/uhexen2-1.5.9.tar.gz
+_md5_=8f8badb7be49508c33269999e71987bd

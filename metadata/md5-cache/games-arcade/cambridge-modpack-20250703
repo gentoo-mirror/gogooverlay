@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=games-arcade/cambridge
+DESCRIPTION=Officially-curated custom content for Cambridge
+EAPI=8
+HOMEPAGE=https://t-sp.in/cambridge/
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=games-arcade/cambridge
+SLOT=0
+SRC_URI=https://github.com/cambridge-stacker/cambridge-modpack/archive/2bd35f47e190978272d6ab32829f6fd00e9b0807.tar.gz -> cambridge-modpack-20250703.tar.gz
+_md5_=f6dc2ed71cc014a8cc76fc62ebc53be6

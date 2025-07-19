@@ -2,16 +2,23 @@ app-misc/font-manager 0.9.4: A simple font management application for Gtk+ Deskt
 app-misc/pev 0.83-r1: The PE file analysis toolkit
 app-misc/readpe 0.84: The PE file analysis toolkit
 app-vim/graphviz 20231230: vim plugin: graphviz and dot file support
-dev-libs/libbacktrace 20240404: C library that may be linked to produce symbolic backtraces
+dev-games/brender 20250617: Argonaut Blazing Render 3D engine (Dethrace Fork)
+dev-libs/libbacktrace 20250410: C library that may be linked to produce symbolic backtraces
 dev-libs/libpe 0.84: The PE library used by pev
 dev-util/DirectXShaderCompiler 1.8.2407: Microsoft DirectX Shader Compiler which is based on LLVM/Clang
+dev-util/ghidra-bin 11.4: Ghidra is a software reverse engineering (SRE) framework
+dev-util/hid-tools 0.9: Python scripts to manipulate HID data
+dev-util/msitools 0.106: Inspect and build Windows Installer files
+games-action/dethrace 0.8.0: Reverse engineered Carmageddon (1997)
 games-action/openlara 1.0_pre20220703-r1: Classic Tomb Raider open-source engine
-games-action/opentomb 20200529-r2: An open-source Tomb Raider 1-5 engine remake
+games-action/opentomb 20250224: An open-source Tomb Raider 1-5 engine remake
 games-action/reflection-hle 20240926: Ports of Keen Dreams, the 3D Catacomb games and Wolfenstein 3D
+games-arcade/cambridge 0.4.4.1: The next open source block stacking game
+games-arcade/cambridge-modpack 20250703: Officially-curated custom content for Cambridge
 games-board/morris 0.3: GTK implementation of the board game Nine Men's Morris
 games-emulation/jrommanager-bin 3.0.5: AppImage release of JRomManager
 games-emulation/linapple 20231017: Apple 2e emulator
-games-emulation/mame-libretro 0.251 0.267 9999: MAME (current) for libretro.
+games-emulation/mame-libretro 0.278: MAME (current) for libretro.
 games-fps/CatacombGL 0.5.7: Catacomb source port with OpenGL graphics
 games-fps/Doom64EX-Plus 4.0.0.3-r1: An improved modern version of Doom64EX
 games-fps/crl 1.9: Playtesting focused Doom engine
@@ -20,16 +27,21 @@ games-fps/dhewm3-d3le 20240419: Port of The Lost Missions to dhewm3
 games-fps/dsda-doom 0.29.0: Speedrunning focused fork of prboom+ with extra tooling for demos.
 games-fps/ecwolf 1.4.1-r1 1.5_pre-r1 9999: ECWolf is a port of the Wolfenstein 3D engine based of Wolf4SDL.
 games-fps/iortcw 1.51c: ioquake3 port of Return to Castle Wolfenstein
+games-fps/nblood 14247: Build Engine Games port based on EDuke32
 games-fps/rbdoom3-bfg 1.6.0: Doom 3 BFG Edition with modern engine features
-games-fps/vkQuake 1.32.2: Vulkan Quake port based on QuakeSpasm
+games-fps/uhexen2 1.5.9: Hexen II: Hammer of Thyrion - A cross-platform port of Hexen II
+games-fps/vkQuake 1.32.3.1: Vulkan Quake port based on QuakeSpasm
 games-fps/vkQuake2 1.5.9-r1: id Software's Quake 2 v3.21 with mission packs and Vulkan support
 games-puzzle/openblok 0.8.7: A customizable, open-source falling block game.
-games-util/vkBasalt 0.3.2.10 9999-r1: A vulkan post processing layer
+games-util/doombsp 20230512: id Software's node builder for Doom, made cross-platform
+games-util/wadext 2.1: A simple WAD extraction command line tool for Doom-engine mods
+games-util/zennode 1.2.1: A DOOM node/blockmap/reject builder
+games-util/zokumbsp 20240712: A blockmap, reject and node builder for Doom, Heretic and Hexen
+gui-apps/coppwr 1.6.2: Low level control GUI for the PipeWire multimedia server
 media-fonts/d2coding 1.3.2: D2 Coding Font (Hangul)
 media-fonts/powerline-fonts 9999 20240322-r1: Monospaced fonts pre-patched with Powerline symbols
 media-libs/libSDL2pp 0.18.1: C++ bindings for SDL2
-media-libs/libsdl3 3.1.6: Simple Direct Media Layer
 media-libs/sdl3-net 20241102: A simple, cross-platform wrapper over TCP/IP sockets
 media-sound/midicomp 0.0.6 9999: A MIDI Compiler - convert SMF MIDI files to and from plain text
 sys-apps/evhz 20210920: Show mouse refresh rate under linux + evdev
-sys-fs/overlayfs-tools 20230929: Maintenance tools for overlay-filesystem
+sys-fs/overlayfs-tools 20250124: Maintenance tools for overlay-filesystem
