@@ -2,6 +2,7 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-emulation/freej2me-plus:libretro - Build Libretro Core
 app-misc/font-manager:google-fonts - Google Fonts integration
 app-misc/font-manager:manager - Build Font Manager
 app-misc/font-manager:nautilus - Build Nautilus extension
@@ -24,7 +25,6 @@ games-fps/dhewm3:base - Add support for the Doom 3 base game
 games-fps/dhewm3:client - Build playable game executable - disable for server installation
 games-fps/dhewm3:d3xp - Add support for Doom 3: Resurrection of Evil expansion
 games-fps/dhewm3:imgui - Build with Dear ImGui integration
-games-fps/dsda-doom:dumb - Enable support for various tracker-style music formats via media-libs/dumb
 games-fps/dsda-doom:fluidsynth - Enable support for MIDI via media-sound/fluidsynth
 games-fps/dsda-doom:portmidi - Enable support for MIDI via media-libs/portmidi
 games-fps/dsda-doom:sdl2-image - Enable support for high-resolution texture support via media-libs/sdl2-image
@@ -114,3 +114,4 @@ media-fonts/powerline-fonts:ubuntumono - Install Powerline-patched Ubuntu Mono f
 media-libs/libSDL2pp:image - Add support for media-libs/sdl2-image
 media-libs/libSDL2pp:mixer - Add support for media-libs/sdl2-mixer
 media-libs/libSDL2pp:ttf - Add support for media-libs/sdl2-ttf
+media-libs/libinstpatch:shared - Build as a shared library
