@@ -11,5 +11,5 @@ LICENSE=LGPL-3 Apache-2.0 MIT ZLIB !system-freetype? ( FTL GPL-2+ )
 RDEPEND=system-freetype? ( media-libs/freetype:2 ) virtual/opengl media-libs/libpng media-libs/libsdl2 media-libs/openal sys-libs/zlib
 SLOT=0
 SRC_URI=https://github.com/opentomb/OpenTomb/archive/ae7e07af766a48c7e5b5f2d6e14a5fa64e37e20c.tar.gz -> opentomb-20250224.tar.gz
-_eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	2d36accef058c00889b1f93ea4bc4061
+_eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	29a000891e576f0392730bb6834b67f5
 _md5_=73f6dd02b455784c8a57140fd8ca0b46
